@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/clerk-sdk-node": "^5.0.28",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mkdirp": "^3.0.1",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.3",
+    "multer": "^1.4.5-lts.1",
+    "next-cloudinary": "^6.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
